@@ -1,0 +1,529 @@
+*version 9.1 842497366
+u 251
+U? 15
+DSTM? 11
+? 9
+@libraries
+@analysis
+.TRAN 1 0 0 0
++0 10ms
++1 100ms
+.STMLIB C:\Users\shesh\Documents\EXCESS3TOBINARY.stl
+@targets
+@attributes
+@translators
+a 0 u 13 0 0 0 hln 100 PCBOARDS=PCB
+a 0 u 13 0 0 0 hln 100 PSPICE=PSPICE
+a 0 u 13 0 0 0 hln 100 XILINX=XILINX
+@setup
+unconnectedPins 0
+connectViaLabel 0
+connectViaLocalLabels 0
+NoStim4ExtIFPortsWarnings 1
+AutoGenStim4ExtIFPorts 1
+@index
+pageloc 1 0 9556 
+@status
+n 0 120:10:23:11:32:52;1606111372 e 
+s 2832 120:10:27:16:10:48;1606473648 e 
+c 120:10:23:11:32:46;1606111366
+*page 1 0 970 720 iA
+@ports
+port 173 IF_OUT 680 230 h
+a 1 xr 3 0 31 8 hcn 100 LABEL=B2
+port 210 IF_OUT 690 410 h
+a 1 xr 3 0 31 8 hcn 100 LABEL=B1
+port 213 IF_OUT 690 510 h
+a 1 xr 3 0 31 8 hcn 100 LABEL=B0
+port 110 IF_OUT 670 70 h
+a 1 xr 3 0 31 8 hcn 100 LABEL=B3
+@parts
+part 64 7400 470 40 h
+a 0 sp 11 0 40 50 hln 100 PART=7400
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U5
+a 0 ap 9 0 40 0 hln 100 REFDES=U5A
+part 65 7400 570 60 h
+a 0 sp 11 0 40 50 hln 100 PART=7400
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U6
+a 0 ap 9 0 40 0 hln 100 REFDES=U6A
+part 28 7400 260 130 h
+a 0 sp 11 0 40 50 hln 100 PART=7400
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U2
+a 0 ap 9 0 40 0 hln 100 REFDES=U2A
+part 66 7400 470 160 h
+a 0 sp 11 0 40 50 hln 100 PART=7400
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U7
+a 0 ap 9 0 40 0 hln 100 REFDES=U7A
+part 116 7410 560 220 h
+a 0 sp 11 0 40 50 hln 100 PART=7410
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U12
+a 0 ap 9 0 40 0 hln 100 REFDES=U12A
+part 48 7400 260 250 h
+a 0 sp 11 0 40 50 hln 100 PART=7400
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U3
+a 0 ap 9 0 40 0 hln 100 REFDES=U3A
+part 69 7410 470 100 h
+a 0 sp 11 0 40 50 hln 100 PART=7410
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U10
+a 0 ap 9 0 40 0 hln 100 REFDES=U10A
+part 115 7410 470 280 h
+a 0 sp 11 0 40 50 hln 100 PART=7410
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U11
+a 0 ap 9 0 40 0 hln 100 REFDES=U11A
+part 180 7400 470 450 h
+a 0 sp 11 0 40 50 hln 100 PART=7400
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U13
+a 0 ap 9 0 40 0 hln 100 REFDES=U13A
+part 181 7400 560 400 h
+a 0 sp 11 0 40 50 hln 100 PART=7400
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U14
+a 0 ap 9 0 40 0 hln 100 REFDES=U14A
+part 67 7400 470 220 h
+a 0 sp 11 0 40 50 hln 100 PART=7400
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U8
+a 0 ap 9 0 40 0 hln 100 REFDES=U8A
+part 63 7400 260 370 h
+a 0 sp 11 0 40 50 hln 100 PART=7400
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U4
+a 0 ap 9 0 40 0 hln 100 REFDES=U4A
+part 68 7400 470 370 h
+a 0 sp 11 0 40 50 hln 100 PART=7400
+a 0 s 0:13 0 0 0 hln 100 PKGTYPE=DIP14
+a 0 s 0:13 0 0 0 hln 100 GATE=A
+a 0 a 0:13 0 0 0 hln 100 PKGREF=U9
+a 0 ap 9 0 40 0 hln 100 REFDES=U9A
+part 237 DigStim 160 40 h
+a 0 a 0:13 0 0 0 hln 100 PKGREF=DSTM5
+a 0 x 13 13 4 19 hln 70 STIMULUS=A
+a 1 ap 9 0 -37 9 hcn 100 REFDES=DSTM5
+part 239 DigStim 160 100 h
+a 0 a 0:13 0 0 0 hln 100 PKGREF=DSTM7
+a 1 ap 9 0 -37 4 hcn 100 REFDES=DSTM7
+a 0 x 13 13 4 19 hln 70 STIMULUS=B
+part 243 DigStim 150 220 h
+a 0 a 0:13 0 0 0 hln 100 PKGREF=DSTM9
+a 1 ap 9 0 -32 9 hcn 100 REFDES=DSTM9
+a 0 x 13 13 4 19 hln 70 STIMULUS=C
+part 244 DigStim 140 340 h
+a 0 a 0:13 0 0 0 hln 100 PKGREF=DSTM10
+a 1 ap 9 0 -42 9 hcn 100 REFDES=DSTM10
+a 0 x 13 13 4 19 hln 70 STIMULUS=D
+part 1 titleblk 970 720 h
+a 1 s 13 0 350 10 hcn 100 PAGESIZE=A
+a 1 s 13 0 180 60 hcn 100 PAGETITLE=
+a 1 s 13 0 300 95 hrn 100 PAGENO=1
+a 1 s 13 0 340 95 hrn 100 PAGECOUNT=1
+part 229 nodeMarker 220 40 h
+a 0 s 0 0 0 0 hln 100 PROBEVAR=
+a 0 a 0 0 4 22 hlb 100 LABEL=5
+part 231 nodeMarker 210 100 h
+a 0 s 0 0 0 0 hln 100 PROBEVAR=
+a 0 a 0 0 4 22 hlb 100 LABEL=6
+part 233 nodeMarker 200 220 h
+a 0 s 0 0 0 0 hln 100 PROBEVAR=
+a 0 a 0 0 4 22 hlb 100 LABEL=7
+part 235 nodeMarker 200 340 h
+a 0 s 0 0 0 0 hln 100 PROBEVAR=
+a 0 a 0 0 4 22 hlb 100 LABEL=8
+part 223 nodeMarker 680 410 h
+a 0 x 0 0 4 22 hlb 100 LABEL=B1_OUT_STATE
+a 0 s 0 0 0 0 hln 100 PROBEVAR=
+part 221 nodeMarker 680 510 h
+a 0 x 0 0 4 22 hlb 100 LABEL=B0_OUT_STATE
+a 0 s 0 0 0 0 hln 100 PROBEVAR=
+part 225 nodeMarker 670 230 h
+a 0 x 0 0 4 22 hlb 100 LABEL=B2_OUT_STATE
+a 0 s 0 0 0 0 hln 100 PROBEVAR=
+part 227 nodeMarker 660 70 h
+a 0 x 0 0 4 22 hlb 100 LABEL=B3_OUT_STATE
+a 0 s 0 0 0 0 hln 100 PROBEVAR=
+@conn
+w 103
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 540 50 540 60 102
+s 540 60 570 60 104
+a 0 up 33 0 555 59 hct 100 LVL=
+w 107
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 570 80 540 80 106
+s 540 80 540 110 108
+a 0 up 33 0 542 95 hlt 100 LVL=
+w 128
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 470 220 440 220 127
+s 330 140 440 140 117
+a 0 up 33 0 385 139 hct 100 LVL=
+s 470 140 470 160 119
+s 440 140 470 140 131
+s 440 220 440 140 129
+w 139
+s 490 410 490 420 138
+w 164
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 540 170 540 220 163
+a 0 up 33 0 542 195 hlt 100 LVL=
+s 540 220 560 220 165
+w 168
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 540 230 560 230 167
+a 0 up 33 0 550 229 hct 100 LVL=
+w 170
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 540 290 540 240 169
+a 0 up 33 0 542 265 hlt 100 LVL=
+s 540 240 560 240 171
+w 122
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 330 260 430 260 121
+s 430 260 430 180 123
+s 470 180 430 180 125
+s 430 260 430 470 196
+a 0 up 33 0 432 365 hlt 100 LVL=
+s 430 470 470 470 198
+w 201
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 540 380 540 400 200
+s 540 400 560 400 202
+a 0 up 33 0 550 399 hct 100 LVL=
+w 205
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 540 460 560 460 204
+s 560 460 560 420 206
+a 0 up 33 0 562 440 hlt 100 LVL=
+w 215
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 690 510 680 510 216
+s 470 240 440 240 132
+s 440 240 440 380 134
+s 440 380 380 380 136
+s 440 380 470 380 187
+s 470 380 470 390 189
+s 380 380 330 380 220
+s 380 510 380 380 218
+s 680 510 380 510 222
+a 0 up 33 0 530 509 hct 100 LVL=
+w 212
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 630 410 680 410 211
+a 0 up 33 0 655 409 hct 100 LVL=
+s 680 410 690 410 224
+w 175
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 630 230 670 230 174
+a 0 up 33 0 650 229 hct 100 LVL=
+s 670 230 680 230 226
+w 113
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 670 70 660 70 112
+s 660 70 640 70 228
+a 0 up 33 0 650 69 hct 100 LVL=
+w 22
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 160 40 220 40 70
+s 390 100 390 40 82
+s 390 40 470 40 84
+s 470 100 390 100 80
+s 220 40 390 40 230
+a 0 up 33 0 305 39 hct 100 LVL=
+w 20
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 160 100 180 100 19
+s 180 100 180 140 23
+s 260 130 260 140 29
+s 260 140 260 150 33
+s 180 140 260 140 31
+s 370 60 370 100 76
+s 370 100 210 100 78
+s 470 60 450 60 74
+s 450 60 370 60 158
+s 450 60 450 280 156
+a 0 up 33 0 452 170 hlt 100 LVL=
+s 450 280 470 280 159
+s 210 100 180 100 232
+w 183
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 470 370 420 370 182
+s 370 110 370 220 87
+s 180 220 180 260 38
+s 260 250 260 260 43
+s 260 260 260 270 47
+s 180 260 260 260 45
+s 370 220 200 220 89
+a 0 up 33 0 285 219 hct 100 LVL=
+s 470 110 370 110 85
+s 370 220 370 290 144
+s 370 290 420 290 146
+s 420 290 470 290 186
+s 420 370 420 290 184
+s 200 220 180 220 234
+s 150 220 180 220 241
+w 99
+a 0 up 0:33 0 0 0 hln 100 LVL=
+s 180 340 180 380 53
+s 180 380 260 380 60
+s 260 370 260 380 58
+s 260 380 260 390 62
+s 380 340 200 340 91
+s 380 120 380 340 93
+a 0 up 33 0 382 230 hlt 100 LVL=
+s 470 120 380 120 95
+s 380 340 450 340 140
+s 470 340 470 300 142
+s 450 340 470 340 193
+s 450 340 450 450 191
+s 450 450 470 450 194
+s 200 340 180 340 236
+s 140 340 180 340 51
+@junction
+j 260 380
++ w 99
++ w 99
+j 260 370
++ p 63 A
++ w 99
+j 260 390
++ p 63 B
++ w 99
+j 470 40
++ p 64 A
++ w 22
+j 390 40
++ w 22
++ w 22
+j 540 50
++ p 64 Y
++ w 103
+j 570 60
++ p 65 A
++ w 103
+j 570 80
++ p 65 B
++ w 107
+j 640 70
++ p 65 Y
++ w 113
+j 470 180
++ p 66 B
++ w 122
+j 470 220
++ p 67 A
++ w 128
+j 330 140
++ p 28 Y
++ w 128
+j 470 160
++ p 66 A
++ w 128
+j 440 140
++ w 128
++ w 128
+j 380 340
++ w 99
++ w 99
+j 470 300
++ p 115 C
++ w 99
+j 470 120
++ p 69 C
++ w 99
+j 470 100
++ p 69 A
++ w 22
+j 540 110
++ p 69 Y
++ w 107
+j 330 260
++ p 48 Y
++ w 122
+j 180 220
++ w 183
++ w 183
+j 260 260
++ w 183
++ w 183
+j 370 220
++ w 183
++ w 183
+j 540 170
++ p 66 Y
++ w 164
+j 560 220
++ p 116 A
++ w 164
+j 540 230
++ p 67 Y
++ w 168
+j 560 230
++ p 116 B
++ w 168
+j 540 290
++ p 115 Y
++ w 170
+j 560 240
++ p 116 C
++ w 170
+j 630 230
++ p 116 Y
++ w 175
+j 680 230
++ s 173
++ w 175
+j 470 370
++ p 68 A
++ w 183
+j 260 250
++ p 48 A
++ w 183
+j 260 270
++ p 48 B
++ w 183
+j 470 110
++ p 69 B
++ w 183
+j 470 290
++ p 115 B
++ w 183
+j 420 290
++ w 183
++ w 183
+j 440 380
++ w 215
++ w 215
+j 450 340
++ w 99
++ w 99
+j 470 450
++ p 180 A
++ w 99
+j 430 260
++ w 122
++ w 122
+j 470 470
++ p 180 B
++ w 122
+j 540 380
++ p 68 Y
++ w 201
+j 560 400
++ p 181 A
++ w 201
+j 540 460
++ p 180 Y
++ w 205
+j 560 420
++ p 181 B
++ w 205
+j 630 410
++ p 181 Y
++ w 212
+j 690 410
++ s 210
++ w 212
+j 690 510
++ s 213
++ w 215
+j 470 240
++ p 67 B
++ w 215
+j 330 380
++ p 63 Y
++ w 215
+j 470 390
++ p 68 B
++ w 215
+j 380 380
++ w 215
++ w 215
+j 680 510
++ p 221 pin1
++ w 215
+j 680 410
++ p 223 pin1
++ w 212
+j 670 230
++ p 225 pin1
++ w 175
+j 220 40
++ p 229 pin1
++ w 22
+j 200 220
++ p 233 pin1
++ w 183
+j 200 340
++ p 235 pin1
++ w 99
+j 160 40
++ p 237 *OUT
++ w 22
+j 670 70
++ s 110
++ w 113
+j 180 100
++ w 20
++ w 20
+j 260 130
++ p 28 A
++ w 20
+j 260 150
++ p 28 B
++ w 20
+j 260 140
++ w 20
++ w 20
+j 470 60
++ p 64 B
++ w 20
+j 450 60
++ w 20
++ w 20
+j 470 280
++ p 115 A
++ w 20
+j 210 100
++ p 231 pin1
++ w 20
+j 160 100
++ p 239 *OUT
++ w 20
+j 150 220
++ p 243 *OUT
++ w 183
+j 140 340
++ p 244 *OUT
++ w 99
+j 180 340
++ w 99
++ w 99
+j 660 70
++ p 227 pin1
++ w 113
+@attributes
+a 0 s 0:13 0 0 0 hln 100 PAGETITLE=
+a 0 s 0:13 0 0 0 hln 100 PAGENO=1
+a 0 s 0:13 0 0 0 hln 100 PAGESIZE=A
+a 0 s 0:13 0 0 0 hln 100 PAGECOUNT=1
+@graphics

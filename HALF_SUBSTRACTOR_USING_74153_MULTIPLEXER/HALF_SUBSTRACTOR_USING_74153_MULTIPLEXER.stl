@@ -1,0 +1,25 @@
+* C:\Users\shesh\Desktop\DIGITAL CIRCUITS LABORATORY ASSIGNMENT\HALF_SUBSTRACTOR_USING_74153_MULTIPLEXER\HALF_SUBSTRACTOR_USING_74153_MULTIPLEXER.stl written on Fri Nov 27 10:49:39 2020
+* by Stimulus Editor -- Evaluation Version 9.1
+;!Stimulus Get
+;! B Digital A Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 80ms
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS B STIM (1, 1) ;! CLOCK 50 0.5 0 0
++   +0s 0
++   +10ms 1
++   Repeat Forever
++      +10ms 0
++      +10ms 1
++   EndRepeat
+.STIMULUS A STIM (1, 1) ;! CLOCK 50 0.5 1 0
++   +0s 1
++   +10ms 0
++   Repeat Forever
++      +10ms 1
++      +10ms 0
++   EndRepeat

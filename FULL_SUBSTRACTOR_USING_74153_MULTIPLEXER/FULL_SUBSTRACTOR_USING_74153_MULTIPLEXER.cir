@@ -1,0 +1,24 @@
+* C:\Users\shesh\Desktop\DIGITAL CIRCUITS LABORATORY ASSIGNMENT\FULL_SUBSTRACTOR_USING_74153_MULTIPLEXER\FULL_SUBSTRACTOR_USING_74153_MULTIPLEXER.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Nov 23 11:32:21 2020
+
+
+
+** Analysis setup **
+.tran 10ms 100ms
+.OP 
+.STMLIB "C:\Users\shesh\Documents\fsumux.stl"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "FULL_SUBSTRACTOR_USING_74153_MULTIPLEXER.net"
+.INC "FULL_SUBSTRACTOR_USING_74153_MULTIPLEXER.als"
+
+
+.probe
+
+
+.END

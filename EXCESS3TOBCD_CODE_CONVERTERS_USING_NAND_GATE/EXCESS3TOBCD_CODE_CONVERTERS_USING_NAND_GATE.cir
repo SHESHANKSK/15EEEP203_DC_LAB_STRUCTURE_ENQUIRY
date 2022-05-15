@@ -1,0 +1,24 @@
+* C:\Users\shesh\Desktop\DIGITAL CIRCUITS LABORATORY ASSIGNMENT\EXCESS3TOBCD_CODE_CONVERTERS_USING_NAND_GATE\EXCESS3TOBCD_CODE_CONVERTERS_USING_NAND_GATE.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Nov 23 11:32:52 2020
+
+
+
+** Analysis setup **
+.tran 10ms 100ms
+.OP 
+.STMLIB "C:\Users\shesh\Documents\EXCESS3TOBINARY.stl"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "EXCESS3TOBCD_CODE_CONVERTERS_USING_NAND_GATE.net"
+.INC "EXCESS3TOBCD_CODE_CONVERTERS_USING_NAND_GATE.als"
+
+
+.probe
+
+
+.END
